@@ -1,0 +1,43 @@
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 2px black;
+}
+img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card:hover{
+    box-shadow: 8px 8px 12px 5px black;
+}
+h2{
+    color: blue;
+}
+h1{
+    color: coral;
+}
+p{
+    margin: 6px;
+
+}
+h3{
+    text-align: center;
+    color: deeppink;
+}
+@media (max-width:700px){
+    #pets{
+        display: block;
+    }
+    h2,h1{
+        text-align: center;
+    }
+    .cat{
+        margin-top: 18px;
+    }
+}
